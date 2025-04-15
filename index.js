@@ -3,31 +3,8 @@ import openai from "./config/open-ai.js";
 import readlineSync from 'readline-sync';
 import colors from 'colors';
 
-// const configuration = Configuration({
-//     apiKey: process.env.OPENAI_API_KEY
-// });
-
-// const openai = new OpenAIApi(configuration);
-// const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
-// async function main(){
-//     const chatCompletion = await openai.createChatCompletion({
-//         model: 'gpt-3.5-turbo',
-//         messages: [
-//             { role: 'user', content: 'What is the capital of Massachusetts?' }
-//         ]
-//     });
-
-//     console.log(chatCompletion);
-// }
 async function main() {
-      // const chatCompletion = await openai.chat.completions.create({
-      //   model: "gpt-3.5-turbo",
-      //   messages: [{ role: "user", content: "Hello, who are you?" }]
-      // });
-      // console.log(chatCompletion.choices[0].message.content);
-      // const userName = readlineSync.question('May I have your name?');
-      // console.log(`Hello ${userName}`);
+
       console.log(colors.bold.green('Welcome to the Chatbot Program!'));
       console.log(colors.bold.green('You can start chatting with the bot.'));
 
